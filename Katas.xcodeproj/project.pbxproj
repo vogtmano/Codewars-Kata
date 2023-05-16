@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8403109F2923ACFB00D17361 /* func camelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403109E2923ACFB00D17361 /* func camelCase.swift */; };
+		8410E6F527E20DDE0048FC82 /* func squareOrSquareRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410E6F427E20DDE0048FC82 /* func squareOrSquareRoot.swift */; };
+		84124A90271EE53F007481BA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84124A8F271EE53F007481BA /* main.swift */; };
+		8413397827BA8E51002E7163 /* func sumOfPositives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413397727BA8E51002E7163 /* func sumOfPositives.swift */; };
+		8413397A27BA9523002E7163 /* func century.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413397927BA9523002E7163 /* func century.swift */; };
+		8413397C27BAA2EC002E7163 /* func summation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413397B27BAA2EC002E7163 /* func summation.swift */; };
+		8413397E27BBAE7D002E7163 /* func findDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413397D27BBAE7D002E7163 /* func findDifference.swift */; };
+		8413398027BD205C002E7163 /* func switchItUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413397F27BD205C002E7163 /* func switchItUp.swift */; };
+		8413398227BD2449002E7163 /* func angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413398127BD2449002E7163 /* func angle.swift */; };
+		8413398427BFC022002E7163 /* func extraPerfect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413398327BFC022002E7163 /* func extraPerfect.swift */; };
+		841727982800317E0097B500 /* func formatMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841727972800317E0097B500 /* func formatMoney.swift */; };
+		842251EA28F57EF60089D9E2 /* func findOutlier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842251E928F57EF60089D9E2 /* func findOutlier.swift */; };
+		842418A827218BDC00D3B542 /* func rentalCarCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842418A727218BDC00D3B542 /* func rentalCarCost.swift */; };
+		842418AA2722BBE300D3B542 /* func checkForFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842418A92722BBE300D3B542 /* func checkForFactor.swift */; };
+		84268AB729B5FD1500098D7B /* func isAValidMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84268AB629B5FD1500098D7B /* func isAValidMessage.swift */; };
+		842C6B8529AF65BE002172F2 /* func isNarcissistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C6B8429AF65BE002172F2 /* func isNarcissistic.swift */; };
+		842E68E82887F8D1008737F0 /* func maskify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E68E72887F8D1008737F0 /* func maskify.swift */; };
+		842ED9522909452E0083AE7F /* func digPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842ED9512909452E0083AE7F /* func digPow.swift */; };
+		842F42DA281A996A00A2897A /* func multi_table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F42D9281A996A00A2897A /* func multi_table.swift */; };
+		843402C928419D440045C4C4 /* func euclideanDistanceBetween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843402C828419D440045C4C4 /* func euclideanDistanceBetween.swift */; };
+		8436512E29A8CDC9002D6B3F /* func numericals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436512D29A8CDC9002D6B3F /* func numericals.swift */; };
+		843D691C28C89E7D00948FE0 /* func jumpingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D691B28C89E7D00948FE0 /* func jumpingNumber.swift */; };
+		843F1EE828DC5FD700564CC8 /* func flyBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843F1EE728DC5FD700564CC8 /* func flyBy.swift */; };
+		843FB49B282D0539009B83BF /* func allNonConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FB49A282D0539009B83BF /* func allNonConsecutive.swift */; };
+		843FB4B7282E5993009B83BF /* messiGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FB4B6282E5993009B83BF /* messiGoals.swift */; };
+		843FB4B9282E5AAF009B83BF /* func sumOfIntigersInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FB4B8282E5AAF009B83BF /* func sumOfIntigersInString.swift */; };
+		84400EB5271CACC80088A32E /* func addLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84400EB4271CACC80088A32E /* func addLetters.swift */; };
+		84400EB7271EC8A00088A32E /* func myModulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84400EB6271EC8A00088A32E /* func myModulo.swift */; };
+		8441CAAB297E9E2300630EFF /* func beggars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441CAAA297E9E2300630EFF /* func beggars.swift */; };
+		8443DA6A289D1108008602A5 /* func circleOfNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443DA69289D1108008602A5 /* func circleOfNumbers.swift */; };
+		844472B62893D8C60067CC3C /* func nbDig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844472B52893D8C60067CC3C /* func nbDig.swift */; };
+		8444ECA4273E772A002289EE /* func toJadenCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444ECA3273E772A002289EE /* func toJadenCase.swift */; };
+		84474A5E28E1A5E80073EF5A /* func persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84474A5D28E1A5E80073EF5A /* func persistence.swift */; };
+		844BC07527FDB28E002959A1 /* func areLettersRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BC07427FDB28E002959A1 /* func areLettersRepeating.swift */; };
+		844BC07727FDB2EA002959A1 /* func count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BC07627FDB2EA002959A1 /* func count.swift */; };
+		844BC07927FDB31F002959A1 /* func isThisAPalindrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BC07827FDB31F002959A1 /* func isThisAPalindrom.swift */; };
+		844BC07B27FDB354002959A1 /* func doesItContainSameCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BC07A27FDB354002959A1 /* func doesItContainSameCharacters.swift */; };
+		844BC07D27FDCE45002959A1 /* func opposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BC07C27FDCE45002959A1 /* func opposite.swift */; };
+		844BC08127FF2A2B002959A1 /* func growingPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BC08027FF2A2B002959A1 /* func growingPlant.swift */; };
+		844D211C2799AD7F001E1E0C /* func move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D211B2799AD7F001E1E0C /* func move.swift */; };
+		844D211E2799B15D001E1E0C /* func expressionMatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D211D2799B15D001E1E0C /* func expressionMatter.swift */; };
+		844E7E522731551300556953 /* func digitize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7E512731551300556953 /* func digitize.swift */; };
+		844E7E562732AB5600556953 /* func bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7E552732AB5600556953 /* func bmi.swift */; };
+		844E7E582733F1A900556953 /* func simpleMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7E572733F1A900556953 /* func simpleMultiplication.swift */; };
+		844E7E5A2733F98C00556953 /* func reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7E592733F98C00556953 /* func reverse.swift */; };
+		844E7E5C27354C2A00556953 /* func evenOrOdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7E5B27354C2A00556953 /* func evenOrOdd.swift */; };
+		844E7E5E27354F6700556953 /* func boolToWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7E5D27354F6700556953 /* func boolToWord.swift */; };
+		844F052B291BBC2A00C657D0 /* func countBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F052A291BBC2A00C657D0 /* func countBits.swift */; };
+		8450CDD629829433001205CB /* func isSumOfCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CDD529829433001205CB /* func isSumOfCubes.swift */; };
+		84517CF127F7490D0004EEEE /* func sum_str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84517CF027F7490D0004EEEE /* func sum_str.swift */; };
+		8451BC3927E8DD3B008CAD31 /* func sumMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451BC3827E8DD3B008CAD31 /* func sumMix.swift */; };
+		8453033D291A837B003F2853 /* func divisors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453033C291A837B003F2853 /* func divisors.swift */; };
+		84537E3427C3BB91008E5848 /* func evenChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84537E3327C3BB91008E5848 /* func evenChars.swift */; };
+		84537E3827C66D6A008E5848 /* func stringy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84537E3727C66D6A008E5848 /* func stringy.swift */; };
+		84537E3A27C7AD2A008E5848 /* func monkeyCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84537E3927C7AD2A008E5848 /* func monkeyCount.swift */; };
+		84537E3C27C7BC32008E5848 /* func sumOfTwoSmallestIntegersIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84537E3B27C7BC32008E5848 /* func sumOfTwoSmallestIntegersIn.swift */; };
+		845ADA1F29A387680042B203 /* func step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ADA1E29A387680042B203 /* func step.swift */; };
+		84604FB927D3A94B00C65C98 /* func squareDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84604FB827D3A94B00C65C98 /* func squareDigits.swift */; };
+		84604FBB27D3AB9D00C65C98 /* func accum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84604FBA27D3AB9D00C65C98 /* func accum.swift */; };
+		8461051C283CDE1F0036AC60 /* func numbersWithDigitInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461051B283CDE1F0036AC60 /* func numbersWithDigitInside.swift */; };
+		84668A64280EB4380008E4BC /* func maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84668A63280EB4380008E4BC /* func maps.swift */; };
+		84668A66280EB6400008E4BC /* func findSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84668A65280EB6400008E4BC /* func findSum.swift */; };
+		84668A68280EC3850008E4BC /* fizzbuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84668A67280EC3850008E4BC /* fizzbuzz.swift */; };
+		8471D75828F43A36007E5132 /* func findIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471D75728F43A36007E5132 /* func findIt.swift */; };
+		8476167228B62463004AA7C1 /* func fizzBuzzCuckooClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476167128B62463004AA7C1 /* func fizzBuzzCuckooClock.swift */; };
+		847A511929EEAC9A0055F16A /* func otherAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A511829EEAC9A0055F16A /* func otherAngle.swift */; };
+		847A511B29EEADA30055F16A /* func doubleInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A511A29EEADA30055F16A /* func doubleInteger.swift */; };
+		847A511D29EEADE00055F16A /* func getVolumeOfCuboid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A511C29EEADE00055F16A /* func getVolumeOfCuboid.swift */; };
+		847A511F29EEAE780055F16A /* func square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A511E29EEAE780055F16A /* func square.swift */; };
+		847A512129EEAF580055F16A /* func sixToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A512029EEAF580055F16A /* func sixToast.swift */; };
+		847A512329EEB06F0055F16A /* func converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A512229EEB06F0055F16A /* func converter.swift */; };
+		847A512529EEB4170055F16A /* func findRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A512429EEB4170055F16A /* func findRoutes.swift */; };
+		8483D81427C8FDCC00651802 /* func nthEven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483D81327C8FDCC00651802 /* func nthEven.swift */; };
+		8488573429BF3E9B0087335E /* func sortTwisted37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488573329BF3E9B0087335E /* func sortTwisted37.swift */; };
+		848F10212844BFBF00D706AC /* func countArare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F10202844BFBF00D706AC /* func countArare.swift */; };
+		8490717D28B8C86100FAC64A /* func movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490717C28B8C86100FAC64A /* func movie.swift */; };
+		84911BA129C332A2004B8FCB /* func createBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84911BA029C332A2004B8FCB /* func createBox.swift */; };
+		84918EB7297FF64200EE208A /* func shiftedDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84918EB6297FF64100EE208A /* func shiftedDiff.swift */; };
+		84932CB228081A4800A1FEB7 /* func toLeetSpeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84932CB128081A4800A1FEB7 /* func toLeetSpeak.swift */; };
+		849585AF28115514002D5962 /* func quarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849585AE28115514002D5962 /* func quarter.swift */; };
+		849585B12811575C002D5962 /* func digitalRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849585B02811575C002D5962 /* func digitalRoot.swift */; };
+		849585F52812A683002D5962 /* func firstNonConsecutive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849585F42812A683002D5962 /* func firstNonConsecutive.swift */; };
+		849585F72812AD8A002D5962 /* func flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849585F62812AD8A002D5962 /* func flip.swift */; };
+		8495D85528DDE3AA008F3129 /* func add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495D85428DDE3AA008F3129 /* func add.swift */; };
+		8498724E283267A500A5E3B1 /* func wordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498724D283267A500A5E3B1 /* func wordSearch.swift */; };
+		849872502833B87100A5E3B1 /* func getOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498724F2833B87100A5E3B1 /* func getOrder.swift */; };
+		8498FACF28F6BEA300A49FC1 /* func duplicateEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498FACE28F6BEA300A49FC1 /* func duplicateEncode.swift */; };
+		849B3BED2817ECD700D9BF64 /* func maxMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B3BEC2817ECD700D9BF64 /* func maxMultiple.swift */; };
+		849B3C57281945EA00D9BF64 /* func countDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B3C56281945EA00D9BF64 /* func countDuplicates.swift */; };
+		849C2EC0279AD826004A3DA9 /* func squareSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C2EBF279AD826004A3DA9 /* func squareSum.swift */; };
+		849C2EC2279ADF12004A3DA9 /* func grow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C2EC1279ADF12004A3DA9 /* func grow.swift */; };
+		849C2EC4279AE69F004A3DA9 /* func past.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C2EC3279AE69F004A3DA9 /* func past.swift */; };
+		849E7D9E273949DD00383D4C /* func oddOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E7D9D273949DD00383D4C /* func oddOne.swift */; };
+		84A064FB280578850027D7EA /* func sumOfMinimums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A064FA280578850027D7EA /* func sumOfMinimums.swift */; };
+		84A237982795B5720045B5BE /* func menFromBoys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A237972795B5720045B5BE /* func menFromBoys.swift */; };
+		84A34FE82949E1CD00924092 /* func foldArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A34FE72949E1CD00924092 /* func foldArray.swift */; };
+		84A3E4E128A4FC1800B0CC95 /* func pyramid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3E4E028A4FC1800B0CC95 /* func pyramid.swift */; };
+		84A545EB282A628C0039F147 /* func getAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A545EA282A628C0039F147 /* func getAverage.swift */; };
+		84A545ED282A652E0039F147 /* func findDeletedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A545EC282A652E0039F147 /* func findDeletedNumber.swift */; };
+		84A54665282BB3490039F147 /* func inviteMoreWomen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A54664282BB3490039F147 /* func inviteMoreWomen.swift */; };
+		84A54667282BB8670039F147 /* func digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A54666282BB8670039F147 /* func digits.swift */; };
+		84A5923328EC334E0007D89D /* func spinWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5923228EC334E0007D89D /* func spinWords.swift */; };
+		84B38206283E2BE400640661 /* func heron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B38205283E2BE400640661 /* func heron.swift */; };
+		84B38208283E2F2200640661 /* func replaceAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B38207283E2F2200640661 /* func replaceAll.swift */; };
+		84B4835D27A2A9B200A8ED16 /* func booleanToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4835C27A2A9B200A8ED16 /* func booleanToString.swift */; };
+		84B4835F27A2AB4F00A8ED16 /* func getGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4835E27A2AB4F00A8ED16 /* func getGrade.swift */; };
+		84B4836527A413CE00A8ED16 /* func repeatStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4836427A413CE00A8ED16 /* func repeatStr.swift */; };
+		84B4836727A416E400A8ED16 /* func fakeBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4836627A416E400A8ED16 /* func fakeBinary.swift */; };
+		84B4836B27A9B48D00A8ED16 /* func check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4836A27A9B48D00A8ED16 /* func check.swift */; };
+		84B4836D27A9B6BC00A8ED16 /* func greet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4836C27A9B6BC00A8ED16 /* func greet.swift */; };
+		84B4837127AAC2FE00A8ED16 /* func take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4837027AAC2FE00A8ED16 /* func take.swift */; };
+		84B4837327AAC87000A8ED16 /* func hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4837227AAC87000A8ED16 /* func hero.swift */; };
+		84B4837527AC256800A8ED16 /* func kataTwist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4837427AC256800A8ED16 /* func kataTwist.swift */; };
+		84B4837727AC287900A8ED16 /* func potato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4837627AC287900A8ED16 /* func potato.swift */; };
+		84B4F73F287D792A00B809F8 /* func warnTheSheep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4F73E287D792A00B809F8 /* func warnTheSheep.swift */; };
+		84B4F77828801C0A00B809F8 /* func subtractSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4F77728801C0A00B809F8 /* func subtractSum.swift */; };
+		84B4F80828855A6000B809F8 /* func triangular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4F80728855A6000B809F8 /* func triangular.swift */; };
+		84B4F80A2885620800B809F8 /* func printerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4F8092885620800B809F8 /* func printerError.swift */; };
+		84B7F77F29DECC9000A38A94 /* func update_light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7F77E29DECC9000A38A94 /* func update_light.swift */; };
+		84B7F78129DED13400A38A94 /* func validParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7F78029DED13400A38A94 /* func validParentheses.swift */; };
+		84C2350D2975730F001484D3 /* func playPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2350C2975730F001484D3 /* func playPass.swift */; };
+		84C35EC828CF2FC400A8619B /* func balancedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C35EC728CF2FC400A8619B /* func balancedNumber.swift */; };
+		84C5D1F72891307800244BFD /* func descendingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D1F62891307800244BFD /* func descendingOrder.swift */; };
+		84C5D21D289287FA00244BFD /* func rowSumOddNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D21C289287FA00244BFD /* func rowSumOddNumbers.swift */; };
+		84C9021E28ACE2CA00E70ACC /* func disariumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9021D28ACE2CA00E70ACC /* func disariumNumber.swift */; };
+		84CD86EB28991C2E002F22C6 /* func disemvowel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD86EA28991C2E002F22C6 /* func disemvowel.swift */; };
+		84D0E4362897CAC9000DB49B /* func find_short.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0E4352897CAC9000DB49B /* func find_short.swift */; };
+		84D7E1C428EAE05600AA288F /* func solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7E1C328EAE05600AA288F /* func solution.swift */; };
+		84D966B8298BCC9D00298DAC /* func backwardsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D966B7298BCC9D00298DAC /* func backwardsPrime.swift */; };
+		84DE3F8D2924F127007189C4 /* func diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE3F8C2924F127007189C4 /* func diamond.swift */; };
+		84DF46B728758F5500140E68 /* func reverseSeq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF46B628758F5500140E68 /* func reverseSeq.swift */; };
+		84DF46BB2876E0F500140E68 /* func isDivisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF46BA2876E0F500140E68 /* func isDivisible.swift */; };
+		84DF46BD2876E4C100140E68 /* func calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF46BC2876E4C100140E68 /* func calculate.swift */; };
+		84EA5F68283B88D0000A4973 /* func spacify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA5F67283B88D0000A4973 /* func spacify.swift */; };
+		84EAE3EC28A25CE100B87181 /* func strongNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAE3EB28A25CE100B87181 /* func strongNumber.swift */; };
+		84F1CC1B27E35E7D00A69C56 /* func getPlanetName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1CC1A27E35E7D00A69C56 /* func getPlanetName.swift */; };
+		84F1CC1D27E360B700A69C56 /* func dontGiveMeFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1CC1C27E360B700A69C56 /* func dontGiveMeFive.swift */; };
+		84F1CC1F27E4D41200A69C56 /* func flattenAndSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1CC1E27E4D41200A69C56 /* func flattenAndSort.swift */; };
+		84F2F49228AE33FA00C3DE12 /* func minimumPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2F49128AE33FA00C3DE12 /* func minimumPerimeter.swift */; };
+		84FB494D28350A3400623ABA /* func isNegativeZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB494C28350A3400623ABA /* func isNegativeZero.swift */; };
+		84FB494F2835107E00623ABA /* func validBraces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB494E2835107E00623ABA /* func validBraces.swift */; };
+		84FB4951283797BB00623ABA /* func findDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB4950283797BB00623ABA /* func findDigit.swift */; };
+		84FC7A4A291D0B130022E8C4 /* func wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC7A49291D0B130022E8C4 /* func wave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84400EA8271CAC9F0088A32E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8403109E2923ACFB00D17361 /* func camelCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func camelCase.swift"; sourceTree = "<group>"; };
+		8410E6F427E20DDE0048FC82 /* func squareOrSquareRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func squareOrSquareRoot.swift"; sourceTree = "<group>"; };
+		84124A8F271EE53F007481BA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8413397727BA8E51002E7163 /* func sumOfPositives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sumOfPositives.swift"; sourceTree = "<group>"; };
+		8413397927BA9523002E7163 /* func century.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func century.swift"; sourceTree = "<group>"; };
+		8413397B27BAA2EC002E7163 /* func summation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func summation.swift"; sourceTree = "<group>"; };
+		8413397D27BBAE7D002E7163 /* func findDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findDifference.swift"; sourceTree = "<group>"; };
+		8413397F27BD205C002E7163 /* func switchItUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func switchItUp.swift"; sourceTree = "<group>"; };
+		8413398127BD2449002E7163 /* func angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func angle.swift"; sourceTree = "<group>"; };
+		8413398327BFC022002E7163 /* func extraPerfect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func extraPerfect.swift"; sourceTree = "<group>"; };
+		841727972800317E0097B500 /* func formatMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func formatMoney.swift"; sourceTree = "<group>"; };
+		842251E928F57EF60089D9E2 /* func findOutlier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findOutlier.swift"; sourceTree = "<group>"; };
+		842418A727218BDC00D3B542 /* func rentalCarCost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "func rentalCarCost.swift"; sourceTree = "<group>"; };
+		842418A92722BBE300D3B542 /* func checkForFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func checkForFactor.swift"; sourceTree = "<group>"; };
+		84268AB629B5FD1500098D7B /* func isAValidMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func isAValidMessage.swift"; sourceTree = "<group>"; };
+		842C6B8429AF65BE002172F2 /* func isNarcissistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func isNarcissistic.swift"; sourceTree = "<group>"; };
+		842E68E72887F8D1008737F0 /* func maskify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func maskify.swift"; sourceTree = "<group>"; };
+		842ED9512909452E0083AE7F /* func digPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func digPow.swift"; sourceTree = "<group>"; };
+		842F42D9281A996A00A2897A /* func multi_table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func multi_table.swift"; sourceTree = "<group>"; };
+		843402C828419D440045C4C4 /* func euclideanDistanceBetween.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func euclideanDistanceBetween.swift"; sourceTree = "<group>"; };
+		8436512D29A8CDC9002D6B3F /* func numericals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func numericals.swift"; sourceTree = "<group>"; };
+		843D691B28C89E7D00948FE0 /* func jumpingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func jumpingNumber.swift"; sourceTree = "<group>"; };
+		843F1EE728DC5FD700564CC8 /* func flyBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func flyBy.swift"; sourceTree = "<group>"; };
+		843FB49A282D0539009B83BF /* func allNonConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func allNonConsecutive.swift"; sourceTree = "<group>"; };
+		843FB4B6282E5993009B83BF /* messiGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messiGoals.swift; sourceTree = "<group>"; };
+		843FB4B8282E5AAF009B83BF /* func sumOfIntigersInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sumOfIntigersInString.swift"; sourceTree = "<group>"; };
+		84400EAA271CAC9F0088A32E /* Katas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Katas; sourceTree = BUILT_PRODUCTS_DIR; };
+		84400EB4271CACC80088A32E /* func addLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func addLetters.swift"; sourceTree = "<group>"; };
+		84400EB6271EC8A00088A32E /* func myModulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func myModulo.swift"; sourceTree = "<group>"; };
+		8441CAAA297E9E2300630EFF /* func beggars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func beggars.swift"; sourceTree = "<group>"; };
+		8443DA69289D1108008602A5 /* func circleOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func circleOfNumbers.swift"; sourceTree = "<group>"; };
+		844472B52893D8C60067CC3C /* func nbDig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func nbDig.swift"; sourceTree = "<group>"; };
+		8444ECA3273E772A002289EE /* func toJadenCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func toJadenCase.swift"; sourceTree = "<group>"; };
+		84474A5D28E1A5E80073EF5A /* func persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func persistence.swift"; sourceTree = "<group>"; };
+		844BC07427FDB28E002959A1 /* func areLettersRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func areLettersRepeating.swift"; sourceTree = "<group>"; };
+		844BC07627FDB2EA002959A1 /* func count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func count.swift"; sourceTree = "<group>"; };
+		844BC07827FDB31F002959A1 /* func isThisAPalindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func isThisAPalindrom.swift"; sourceTree = "<group>"; };
+		844BC07A27FDB354002959A1 /* func doesItContainSameCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func doesItContainSameCharacters.swift"; sourceTree = "<group>"; };
+		844BC07C27FDCE45002959A1 /* func opposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func opposite.swift"; sourceTree = "<group>"; };
+		844BC08027FF2A2B002959A1 /* func growingPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func growingPlant.swift"; sourceTree = "<group>"; };
+		844D211B2799AD7F001E1E0C /* func move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func move.swift"; sourceTree = "<group>"; };
+		844D211D2799B15D001E1E0C /* func expressionMatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func expressionMatter.swift"; sourceTree = "<group>"; };
+		844E7E512731551300556953 /* func digitize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func digitize.swift"; sourceTree = "<group>"; };
+		844E7E552732AB5600556953 /* func bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func bmi.swift"; sourceTree = "<group>"; };
+		844E7E572733F1A900556953 /* func simpleMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func simpleMultiplication.swift"; sourceTree = "<group>"; };
+		844E7E592733F98C00556953 /* func reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func reverse.swift"; sourceTree = "<group>"; };
+		844E7E5B27354C2A00556953 /* func evenOrOdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func evenOrOdd.swift"; sourceTree = "<group>"; };
+		844E7E5D27354F6700556953 /* func boolToWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func boolToWord.swift"; sourceTree = "<group>"; };
+		844F052A291BBC2A00C657D0 /* func countBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func countBits.swift"; sourceTree = "<group>"; };
+		8450CDD529829433001205CB /* func isSumOfCubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func isSumOfCubes.swift"; sourceTree = "<group>"; };
+		84517CF027F7490D0004EEEE /* func sum_str.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sum_str.swift"; sourceTree = "<group>"; };
+		8451BC3827E8DD3B008CAD31 /* func sumMix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sumMix.swift"; sourceTree = "<group>"; };
+		8453033C291A837B003F2853 /* func divisors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func divisors.swift"; sourceTree = "<group>"; };
+		84537E3327C3BB91008E5848 /* func evenChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func evenChars.swift"; sourceTree = "<group>"; };
+		84537E3727C66D6A008E5848 /* func stringy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func stringy.swift"; sourceTree = "<group>"; };
+		84537E3927C7AD2A008E5848 /* func monkeyCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func monkeyCount.swift"; sourceTree = "<group>"; };
+		84537E3B27C7BC32008E5848 /* func sumOfTwoSmallestIntegersIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sumOfTwoSmallestIntegersIn.swift"; sourceTree = "<group>"; };
+		845ADA1E29A387680042B203 /* func step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func step.swift"; sourceTree = "<group>"; };
+		84604FB827D3A94B00C65C98 /* func squareDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func squareDigits.swift"; sourceTree = "<group>"; };
+		84604FBA27D3AB9D00C65C98 /* func accum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func accum.swift"; sourceTree = "<group>"; };
+		8461051B283CDE1F0036AC60 /* func numbersWithDigitInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func numbersWithDigitInside.swift"; sourceTree = "<group>"; };
+		84668A63280EB4380008E4BC /* func maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func maps.swift"; sourceTree = "<group>"; };
+		84668A65280EB6400008E4BC /* func findSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findSum.swift"; sourceTree = "<group>"; };
+		84668A67280EC3850008E4BC /* fizzbuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizzbuzz.swift; sourceTree = "<group>"; };
+		8471D75728F43A36007E5132 /* func findIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findIt.swift"; sourceTree = "<group>"; };
+		8476167128B62463004AA7C1 /* func fizzBuzzCuckooClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func fizzBuzzCuckooClock.swift"; sourceTree = "<group>"; };
+		847A511829EEAC9A0055F16A /* func otherAngle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func otherAngle.swift"; sourceTree = "<group>"; };
+		847A511A29EEADA30055F16A /* func doubleInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func doubleInteger.swift"; sourceTree = "<group>"; };
+		847A511C29EEADE00055F16A /* func getVolumeOfCuboid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func getVolumeOfCuboid.swift"; sourceTree = "<group>"; };
+		847A511E29EEAE780055F16A /* func square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func square.swift"; sourceTree = "<group>"; };
+		847A512029EEAF580055F16A /* func sixToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sixToast.swift"; sourceTree = "<group>"; };
+		847A512229EEB06F0055F16A /* func converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func converter.swift"; sourceTree = "<group>"; };
+		847A512429EEB4170055F16A /* func findRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findRoutes.swift"; sourceTree = "<group>"; };
+		8483D81327C8FDCC00651802 /* func nthEven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func nthEven.swift"; sourceTree = "<group>"; };
+		8488573329BF3E9B0087335E /* func sortTwisted37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sortTwisted37.swift"; sourceTree = "<group>"; };
+		848F10202844BFBF00D706AC /* func countArare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func countArare.swift"; sourceTree = "<group>"; };
+		8490717C28B8C86100FAC64A /* func movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func movie.swift"; sourceTree = "<group>"; };
+		84911BA029C332A2004B8FCB /* func createBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func createBox.swift"; sourceTree = "<group>"; };
+		84918EB6297FF64100EE208A /* func shiftedDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func shiftedDiff.swift"; sourceTree = "<group>"; };
+		84932CB128081A4800A1FEB7 /* func toLeetSpeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func toLeetSpeak.swift"; sourceTree = "<group>"; };
+		849585AE28115514002D5962 /* func quarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func quarter.swift"; sourceTree = "<group>"; };
+		849585B02811575C002D5962 /* func digitalRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func digitalRoot.swift"; sourceTree = "<group>"; };
+		849585F42812A683002D5962 /* func firstNonConsecutive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func firstNonConsecutive.swift"; sourceTree = "<group>"; };
+		849585F62812AD8A002D5962 /* func flip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func flip.swift"; sourceTree = "<group>"; };
+		8495D85428DDE3AA008F3129 /* func add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func add.swift"; sourceTree = "<group>"; };
+		8498724D283267A500A5E3B1 /* func wordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func wordSearch.swift"; sourceTree = "<group>"; };
+		8498724F2833B87100A5E3B1 /* func getOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func getOrder.swift"; sourceTree = "<group>"; };
+		8498FACE28F6BEA300A49FC1 /* func duplicateEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func duplicateEncode.swift"; sourceTree = "<group>"; };
+		849B3BEC2817ECD700D9BF64 /* func maxMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func maxMultiple.swift"; sourceTree = "<group>"; };
+		849B3C56281945EA00D9BF64 /* func countDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func countDuplicates.swift"; sourceTree = "<group>"; };
+		849C2EBF279AD826004A3DA9 /* func squareSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func squareSum.swift"; sourceTree = "<group>"; };
+		849C2EC1279ADF12004A3DA9 /* func grow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func grow.swift"; sourceTree = "<group>"; };
+		849C2EC3279AE69F004A3DA9 /* func past.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func past.swift"; sourceTree = "<group>"; };
+		849E7D9D273949DD00383D4C /* func oddOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func oddOne.swift"; sourceTree = "<group>"; };
+		84A064FA280578850027D7EA /* func sumOfMinimums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func sumOfMinimums.swift"; sourceTree = "<group>"; };
+		84A237972795B5720045B5BE /* func menFromBoys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func menFromBoys.swift"; sourceTree = "<group>"; };
+		84A34FE72949E1CD00924092 /* func foldArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func foldArray.swift"; sourceTree = "<group>"; };
+		84A3E4E028A4FC1800B0CC95 /* func pyramid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func pyramid.swift"; sourceTree = "<group>"; };
+		84A545EA282A628C0039F147 /* func getAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func getAverage.swift"; sourceTree = "<group>"; };
+		84A545EC282A652E0039F147 /* func findDeletedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findDeletedNumber.swift"; sourceTree = "<group>"; };
+		84A54664282BB3490039F147 /* func inviteMoreWomen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func inviteMoreWomen.swift"; sourceTree = "<group>"; };
+		84A54666282BB8670039F147 /* func digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func digits.swift"; sourceTree = "<group>"; };
+		84A5923228EC334E0007D89D /* func spinWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func spinWords.swift"; sourceTree = "<group>"; };
+		84B38205283E2BE400640661 /* func heron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func heron.swift"; sourceTree = "<group>"; };
+		84B38207283E2F2200640661 /* func replaceAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func replaceAll.swift"; sourceTree = "<group>"; };
+		84B4835C27A2A9B200A8ED16 /* func booleanToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func booleanToString.swift"; sourceTree = "<group>"; };
+		84B4835E27A2AB4F00A8ED16 /* func getGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func getGrade.swift"; sourceTree = "<group>"; };
+		84B4836427A413CE00A8ED16 /* func repeatStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func repeatStr.swift"; sourceTree = "<group>"; };
+		84B4836627A416E400A8ED16 /* func fakeBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func fakeBinary.swift"; sourceTree = "<group>"; };
+		84B4836A27A9B48D00A8ED16 /* func check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func check.swift"; sourceTree = "<group>"; };
+		84B4836C27A9B6BC00A8ED16 /* func greet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func greet.swift"; sourceTree = "<group>"; };
+		84B4837027AAC2FE00A8ED16 /* func take.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func take.swift"; sourceTree = "<group>"; };
+		84B4837227AAC87000A8ED16 /* func hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func hero.swift"; sourceTree = "<group>"; };
+		84B4837427AC256800A8ED16 /* func kataTwist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func kataTwist.swift"; sourceTree = "<group>"; };
+		84B4837627AC287900A8ED16 /* func potato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func potato.swift"; sourceTree = "<group>"; };
+		84B4F73E287D792A00B809F8 /* func warnTheSheep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func warnTheSheep.swift"; sourceTree = "<group>"; };
+		84B4F77728801C0A00B809F8 /* func subtractSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func subtractSum.swift"; sourceTree = "<group>"; };
+		84B4F80728855A6000B809F8 /* func triangular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func triangular.swift"; sourceTree = "<group>"; };
+		84B4F8092885620800B809F8 /* func printerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func printerError.swift"; sourceTree = "<group>"; };
+		84B7F77E29DECC9000A38A94 /* func update_light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func update_light.swift"; sourceTree = "<group>"; };
+		84B7F78029DED13400A38A94 /* func validParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func validParentheses.swift"; sourceTree = "<group>"; };
+		84C2350C2975730F001484D3 /* func playPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func playPass.swift"; sourceTree = "<group>"; };
+		84C35EC728CF2FC400A8619B /* func balancedNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func balancedNumber.swift"; sourceTree = "<group>"; };
+		84C5D1F62891307800244BFD /* func descendingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func descendingOrder.swift"; sourceTree = "<group>"; };
+		84C5D21C289287FA00244BFD /* func rowSumOddNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func rowSumOddNumbers.swift"; sourceTree = "<group>"; };
+		84C9021D28ACE2CA00E70ACC /* func disariumNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func disariumNumber.swift"; sourceTree = "<group>"; };
+		84CD86EA28991C2E002F22C6 /* func disemvowel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func disemvowel.swift"; sourceTree = "<group>"; };
+		84D0E4352897CAC9000DB49B /* func find_short.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func find_short.swift"; sourceTree = "<group>"; };
+		84D7E1C328EAE05600AA288F /* func solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func solution.swift"; sourceTree = "<group>"; };
+		84D966B7298BCC9D00298DAC /* func backwardsPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func backwardsPrime.swift"; sourceTree = "<group>"; };
+		84DE3F8C2924F127007189C4 /* func diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func diamond.swift"; sourceTree = "<group>"; };
+		84DF46B628758F5500140E68 /* func reverseSeq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func reverseSeq.swift"; sourceTree = "<group>"; };
+		84DF46BA2876E0F500140E68 /* func isDivisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func isDivisible.swift"; sourceTree = "<group>"; };
+		84DF46BC2876E4C100140E68 /* func calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func calculate.swift"; sourceTree = "<group>"; };
+		84EA5F67283B88D0000A4973 /* func spacify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func spacify.swift"; sourceTree = "<group>"; };
+		84EAE3EB28A25CE100B87181 /* func strongNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func strongNumber.swift"; sourceTree = "<group>"; };
+		84F1CC1A27E35E7D00A69C56 /* func getPlanetName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func getPlanetName.swift"; sourceTree = "<group>"; };
+		84F1CC1C27E360B700A69C56 /* func dontGiveMeFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func dontGiveMeFive.swift"; sourceTree = "<group>"; };
+		84F1CC1E27E4D41200A69C56 /* func flattenAndSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func flattenAndSort.swift"; sourceTree = "<group>"; };
+		84F2F49128AE33FA00C3DE12 /* func minimumPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func minimumPerimeter.swift"; sourceTree = "<group>"; };
+		84FB494C28350A3400623ABA /* func isNegativeZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func isNegativeZero.swift"; sourceTree = "<group>"; };
+		84FB494E2835107E00623ABA /* func validBraces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func validBraces.swift"; sourceTree = "<group>"; };
+		84FB4950283797BB00623ABA /* func findDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func findDigit.swift"; sourceTree = "<group>"; };
+		84FC7A49291D0B130022E8C4 /* func wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "func wave.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84400EA7271CAC9F0088A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84400EA1271CAC9F0088A32E = {
+			isa = PBXGroup;
+			children = (
+				84400EAC271CAC9F0088A32E /* Katas */,
+				84400EAB271CAC9F0088A32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84400EAB271CAC9F0088A32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84400EAA271CAC9F0088A32E /* Katas */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84400EAC271CAC9F0088A32E /* Katas */ = {
+			isa = PBXGroup;
+			children = (
+				848F10202844BFBF00D706AC /* func countArare.swift */,
+				84B4F77728801C0A00B809F8 /* func subtractSum.swift */,
+				842418A727218BDC00D3B542 /* func rentalCarCost.swift */,
+				844E7E512731551300556953 /* func digitize.swift */,
+				842418A92722BBE300D3B542 /* func checkForFactor.swift */,
+				84604FB827D3A94B00C65C98 /* func squareDigits.swift */,
+				84604FBA27D3AB9D00C65C98 /* func accum.swift */,
+				849E7D9D273949DD00383D4C /* func oddOne.swift */,
+				8410E6F427E20DDE0048FC82 /* func squareOrSquareRoot.swift */,
+				84F1CC1A27E35E7D00A69C56 /* func getPlanetName.swift */,
+				84400EB4271CACC80088A32E /* func addLetters.swift */,
+				84400EB6271EC8A00088A32E /* func myModulo.swift */,
+				84124A8F271EE53F007481BA /* main.swift */,
+				847A512429EEB4170055F16A /* func findRoutes.swift */,
+				847A512229EEB06F0055F16A /* func converter.swift */,
+				847A512029EEAF580055F16A /* func sixToast.swift */,
+				847A511E29EEAE780055F16A /* func square.swift */,
+				847A511C29EEADE00055F16A /* func getVolumeOfCuboid.swift */,
+				847A511A29EEADA30055F16A /* func doubleInteger.swift */,
+				847A511829EEAC9A0055F16A /* func otherAngle.swift */,
+				84B7F78029DED13400A38A94 /* func validParentheses.swift */,
+				84B7F77E29DECC9000A38A94 /* func update_light.swift */,
+				84911BA029C332A2004B8FCB /* func createBox.swift */,
+				8488573329BF3E9B0087335E /* func sortTwisted37.swift */,
+				84268AB629B5FD1500098D7B /* func isAValidMessage.swift */,
+				842C6B8429AF65BE002172F2 /* func isNarcissistic.swift */,
+				8436512D29A8CDC9002D6B3F /* func numericals.swift */,
+				845ADA1E29A387680042B203 /* func step.swift */,
+				84D966B7298BCC9D00298DAC /* func backwardsPrime.swift */,
+				8450CDD529829433001205CB /* func isSumOfCubes.swift */,
+				84918EB6297FF64100EE208A /* func shiftedDiff.swift */,
+				8441CAAA297E9E2300630EFF /* func beggars.swift */,
+				84C2350C2975730F001484D3 /* func playPass.swift */,
+				84A34FE72949E1CD00924092 /* func foldArray.swift */,
+				84DE3F8C2924F127007189C4 /* func diamond.swift */,
+				8403109E2923ACFB00D17361 /* func camelCase.swift */,
+				84FC7A49291D0B130022E8C4 /* func wave.swift */,
+				844F052A291BBC2A00C657D0 /* func countBits.swift */,
+				8453033C291A837B003F2853 /* func divisors.swift */,
+				842ED9512909452E0083AE7F /* func digPow.swift */,
+				8498FACE28F6BEA300A49FC1 /* func duplicateEncode.swift */,
+				842251E928F57EF60089D9E2 /* func findOutlier.swift */,
+				8471D75728F43A36007E5132 /* func findIt.swift */,
+				84A5923228EC334E0007D89D /* func spinWords.swift */,
+				84D7E1C328EAE05600AA288F /* func solution.swift */,
+				84474A5D28E1A5E80073EF5A /* func persistence.swift */,
+				843F1EE728DC5FD700564CC8 /* func flyBy.swift */,
+				8495D85428DDE3AA008F3129 /* func add.swift */,
+				84C35EC728CF2FC400A8619B /* func balancedNumber.swift */,
+				843D691B28C89E7D00948FE0 /* func jumpingNumber.swift */,
+				8490717C28B8C86100FAC64A /* func movie.swift */,
+				8476167128B62463004AA7C1 /* func fizzBuzzCuckooClock.swift */,
+				84F2F49128AE33FA00C3DE12 /* func minimumPerimeter.swift */,
+				84C9021D28ACE2CA00E70ACC /* func disariumNumber.swift */,
+				84A3E4E028A4FC1800B0CC95 /* func pyramid.swift */,
+				84EAE3EB28A25CE100B87181 /* func strongNumber.swift */,
+				8443DA69289D1108008602A5 /* func circleOfNumbers.swift */,
+				84CD86EA28991C2E002F22C6 /* func disemvowel.swift */,
+				84D0E4352897CAC9000DB49B /* func find_short.swift */,
+				844472B52893D8C60067CC3C /* func nbDig.swift */,
+				8461051B283CDE1F0036AC60 /* func numbersWithDigitInside.swift */,
+				84C5D21C289287FA00244BFD /* func rowSumOddNumbers.swift */,
+				84C5D1F62891307800244BFD /* func descendingOrder.swift */,
+				842E68E72887F8D1008737F0 /* func maskify.swift */,
+				84B4F8092885620800B809F8 /* func printerError.swift */,
+				84B4F80728855A6000B809F8 /* func triangular.swift */,
+				84B4F73E287D792A00B809F8 /* func warnTheSheep.swift */,
+				84B4837027AAC2FE00A8ED16 /* func take.swift */,
+				84DF46BC2876E4C100140E68 /* func calculate.swift */,
+				84DF46B628758F5500140E68 /* func reverseSeq.swift */,
+				843402C828419D440045C4C4 /* func euclideanDistanceBetween.swift */,
+				84B38207283E2F2200640661 /* func replaceAll.swift */,
+				84B38205283E2BE400640661 /* func heron.swift */,
+				84EA5F67283B88D0000A4973 /* func spacify.swift */,
+				84FB4950283797BB00623ABA /* func findDigit.swift */,
+				84FB494C28350A3400623ABA /* func isNegativeZero.swift */,
+				8498724F2833B87100A5E3B1 /* func getOrder.swift */,
+				8498724D283267A500A5E3B1 /* func wordSearch.swift */,
+				843FB4B8282E5AAF009B83BF /* func sumOfIntigersInString.swift */,
+				843FB4B6282E5993009B83BF /* messiGoals.swift */,
+				843FB49A282D0539009B83BF /* func allNonConsecutive.swift */,
+				849585F42812A683002D5962 /* func firstNonConsecutive.swift */,
+				84A54666282BB8670039F147 /* func digits.swift */,
+				84A54664282BB3490039F147 /* func inviteMoreWomen.swift */,
+				84A545EC282A652E0039F147 /* func findDeletedNumber.swift */,
+				84A545EA282A628C0039F147 /* func getAverage.swift */,
+				842F42D9281A996A00A2897A /* func multi_table.swift */,
+				849B3C56281945EA00D9BF64 /* func countDuplicates.swift */,
+				849B3BEC2817ECD700D9BF64 /* func maxMultiple.swift */,
+				84A064FA280578850027D7EA /* func sumOfMinimums.swift */,
+				84932CB128081A4800A1FEB7 /* func toLeetSpeak.swift */,
+				84668A63280EB4380008E4BC /* func maps.swift */,
+				84668A65280EB6400008E4BC /* func findSum.swift */,
+				849585AE28115514002D5962 /* func quarter.swift */,
+				849585B02811575C002D5962 /* func digitalRoot.swift */,
+				849585F62812AD8A002D5962 /* func flip.swift */,
+				84668A67280EC3850008E4BC /* fizzbuzz.swift */,
+				84537E3927C7AD2A008E5848 /* func monkeyCount.swift */,
+				84F1CC1C27E360B700A69C56 /* func dontGiveMeFive.swift */,
+				84F1CC1E27E4D41200A69C56 /* func flattenAndSort.swift */,
+				8451BC3827E8DD3B008CAD31 /* func sumMix.swift */,
+				84517CF027F7490D0004EEEE /* func sum_str.swift */,
+				844BC07427FDB28E002959A1 /* func areLettersRepeating.swift */,
+				844BC07627FDB2EA002959A1 /* func count.swift */,
+				844BC07827FDB31F002959A1 /* func isThisAPalindrom.swift */,
+				844BC07A27FDB354002959A1 /* func doesItContainSameCharacters.swift */,
+				8483D81327C8FDCC00651802 /* func nthEven.swift */,
+				84537E3B27C7BC32008E5848 /* func sumOfTwoSmallestIntegersIn.swift */,
+				84537E3727C66D6A008E5848 /* func stringy.swift */,
+				84B4837627AC287900A8ED16 /* func potato.swift */,
+				8413397D27BBAE7D002E7163 /* func findDifference.swift */,
+				84537E3327C3BB91008E5848 /* func evenChars.swift */,
+				8413397F27BD205C002E7163 /* func switchItUp.swift */,
+				8413398127BD2449002E7163 /* func angle.swift */,
+				8413398327BFC022002E7163 /* func extraPerfect.swift */,
+				8413397927BA9523002E7163 /* func century.swift */,
+				844BC07C27FDCE45002959A1 /* func opposite.swift */,
+				844BC08027FF2A2B002959A1 /* func growingPlant.swift */,
+				841727972800317E0097B500 /* func formatMoney.swift */,
+				8413397727BA8E51002E7163 /* func sumOfPositives.swift */,
+				84B4837427AC256800A8ED16 /* func kataTwist.swift */,
+				84B4837227AAC87000A8ED16 /* func hero.swift */,
+				8413397B27BAA2EC002E7163 /* func summation.swift */,
+				84B4836627A416E400A8ED16 /* func fakeBinary.swift */,
+				84B4836A27A9B48D00A8ED16 /* func check.swift */,
+				84B4836C27A9B6BC00A8ED16 /* func greet.swift */,
+				84B4835E27A2AB4F00A8ED16 /* func getGrade.swift */,
+				84B4836427A413CE00A8ED16 /* func repeatStr.swift */,
+				849C2EC1279ADF12004A3DA9 /* func grow.swift */,
+				849C2EC3279AE69F004A3DA9 /* func past.swift */,
+				849C2EBF279AD826004A3DA9 /* func squareSum.swift */,
+				844E7E552732AB5600556953 /* func bmi.swift */,
+				844E7E572733F1A900556953 /* func simpleMultiplication.swift */,
+				844E7E592733F98C00556953 /* func reverse.swift */,
+				844E7E5B27354C2A00556953 /* func evenOrOdd.swift */,
+				844E7E5D27354F6700556953 /* func boolToWord.swift */,
+				8444ECA3273E772A002289EE /* func toJadenCase.swift */,
+				84A237972795B5720045B5BE /* func menFromBoys.swift */,
+				844D211B2799AD7F001E1E0C /* func move.swift */,
+				84B4835C27A2A9B200A8ED16 /* func booleanToString.swift */,
+				844D211D2799B15D001E1E0C /* func expressionMatter.swift */,
+				84FB494E2835107E00623ABA /* func validBraces.swift */,
+				84DF46BA2876E0F500140E68 /* func isDivisible.swift */,
+			);
+			path = Katas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84400EA9271CAC9F0088A32E /* Katas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84400EB1271CAC9F0088A32E /* Build configuration list for PBXNativeTarget "Katas" */;
+			buildPhases = (
+				84400EA6271CAC9F0088A32E /* Sources */,
+				84400EA7271CAC9F0088A32E /* Frameworks */,
+				84400EA8271CAC9F0088A32E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Katas;
+			productName = Katas;
+			productReference = 84400EAA271CAC9F0088A32E /* Katas */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84400EA2271CAC9F0088A32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					84400EA9271CAC9F0088A32E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 84400EA5271CAC9F0088A32E /* Build configuration list for PBXProject "Katas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84400EA1271CAC9F0088A32E;
+			productRefGroup = 84400EAB271CAC9F0088A32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84400EA9271CAC9F0088A32E /* Katas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84400EA6271CAC9F0088A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C6B8529AF65BE002172F2 /* func isNarcissistic.swift in Sources */,
+				844D211C2799AD7F001E1E0C /* func move.swift in Sources */,
+				84B4836D27A9B6BC00A8ED16 /* func greet.swift in Sources */,
+				8413398227BD2449002E7163 /* func angle.swift in Sources */,
+				844E7E562732AB5600556953 /* func bmi.swift in Sources */,
+				847A512529EEB4170055F16A /* func findRoutes.swift in Sources */,
+				84B4F73F287D792A00B809F8 /* func warnTheSheep.swift in Sources */,
+				84A545ED282A652E0039F147 /* func findDeletedNumber.swift in Sources */,
+				84A5923328EC334E0007D89D /* func spinWords.swift in Sources */,
+				8483D81427C8FDCC00651802 /* func nthEven.swift in Sources */,
+				842418AA2722BBE300D3B542 /* func checkForFactor.swift in Sources */,
+				843FB4B9282E5AAF009B83BF /* func sumOfIntigersInString.swift in Sources */,
+				84F1CC1F27E4D41200A69C56 /* func flattenAndSort.swift in Sources */,
+				847A511B29EEADA30055F16A /* func doubleInteger.swift in Sources */,
+				84DE3F8D2924F127007189C4 /* func diamond.swift in Sources */,
+				843FB4B7282E5993009B83BF /* messiGoals.swift in Sources */,
+				844F052B291BBC2A00C657D0 /* func countBits.swift in Sources */,
+				8444ECA4273E772A002289EE /* func toJadenCase.swift in Sources */,
+				84FB494D28350A3400623ABA /* func isNegativeZero.swift in Sources */,
+				844472B62893D8C60067CC3C /* func nbDig.swift in Sources */,
+				844E7E5E27354F6700556953 /* func boolToWord.swift in Sources */,
+				84B4836B27A9B48D00A8ED16 /* func check.swift in Sources */,
+				84B4836527A413CE00A8ED16 /* func repeatStr.swift in Sources */,
+				849585F72812AD8A002D5962 /* func flip.swift in Sources */,
+				844BC07527FDB28E002959A1 /* func areLettersRepeating.swift in Sources */,
+				84C35EC828CF2FC400A8619B /* func balancedNumber.swift in Sources */,
+				847A511F29EEAE780055F16A /* func square.swift in Sources */,
+				84B4F77828801C0A00B809F8 /* func subtractSum.swift in Sources */,
+				84F1CC1D27E360B700A69C56 /* func dontGiveMeFive.swift in Sources */,
+				84400EB7271EC8A00088A32E /* func myModulo.swift in Sources */,
+				84FC7A4A291D0B130022E8C4 /* func wave.swift in Sources */,
+				84C9021E28ACE2CA00E70ACC /* func disariumNumber.swift in Sources */,
+				84B4F80A2885620800B809F8 /* func printerError.swift in Sources */,
+				84474A5E28E1A5E80073EF5A /* func persistence.swift in Sources */,
+				84B4F80828855A6000B809F8 /* func triangular.swift in Sources */,
+				841727982800317E0097B500 /* func formatMoney.swift in Sources */,
+				84B38206283E2BE400640661 /* func heron.swift in Sources */,
+				84B4837727AC287900A8ED16 /* func potato.swift in Sources */,
+				84400EB5271CACC80088A32E /* func addLetters.swift in Sources */,
+				849C2EC2279ADF12004A3DA9 /* func grow.swift in Sources */,
+				844BC07927FDB31F002959A1 /* func isThisAPalindrom.swift in Sources */,
+				84124A90271EE53F007481BA /* main.swift in Sources */,
+				847A511D29EEADE00055F16A /* func getVolumeOfCuboid.swift in Sources */,
+				848F10212844BFBF00D706AC /* func countArare.swift in Sources */,
+				842E68E82887F8D1008737F0 /* func maskify.swift in Sources */,
+				849872502833B87100A5E3B1 /* func getOrder.swift in Sources */,
+				844E7E5C27354C2A00556953 /* func evenOrOdd.swift in Sources */,
+				844BC07727FDB2EA002959A1 /* func count.swift in Sources */,
+				8436512E29A8CDC9002D6B3F /* func numericals.swift in Sources */,
+				849E7D9E273949DD00383D4C /* func oddOne.swift in Sources */,
+				84FB4951283797BB00623ABA /* func findDigit.swift in Sources */,
+				842418A827218BDC00D3B542 /* func rentalCarCost.swift in Sources */,
+				847A512129EEAF580055F16A /* func sixToast.swift in Sources */,
+				844E7E582733F1A900556953 /* func simpleMultiplication.swift in Sources */,
+				8403109F2923ACFB00D17361 /* func camelCase.swift in Sources */,
+				84B4836727A416E400A8ED16 /* func fakeBinary.swift in Sources */,
+				842ED9522909452E0083AE7F /* func digPow.swift in Sources */,
+				84537E3427C3BB91008E5848 /* func evenChars.swift in Sources */,
+				84F2F49228AE33FA00C3DE12 /* func minimumPerimeter.swift in Sources */,
+				849585AF28115514002D5962 /* func quarter.swift in Sources */,
+				84B4837327AAC87000A8ED16 /* func hero.swift in Sources */,
+				84B4837127AAC2FE00A8ED16 /* func take.swift in Sources */,
+				8490717D28B8C86100FAC64A /* func movie.swift in Sources */,
+				84EAE3EC28A25CE100B87181 /* func strongNumber.swift in Sources */,
+				845ADA1F29A387680042B203 /* func step.swift in Sources */,
+				849C2EC0279AD826004A3DA9 /* func squareSum.swift in Sources */,
+				84DF46BD2876E4C100140E68 /* func calculate.swift in Sources */,
+				8413397E27BBAE7D002E7163 /* func findDifference.swift in Sources */,
+				8488573429BF3E9B0087335E /* func sortTwisted37.swift in Sources */,
+				849585F52812A683002D5962 /* func firstNonConsecutive.swift in Sources */,
+				84D7E1C428EAE05600AA288F /* func solution.swift in Sources */,
+				849B3C57281945EA00D9BF64 /* func countDuplicates.swift in Sources */,
+				844E7E522731551300556953 /* func digitize.swift in Sources */,
+				8495D85528DDE3AA008F3129 /* func add.swift in Sources */,
+				84A545EB282A628C0039F147 /* func getAverage.swift in Sources */,
+				843402C928419D440045C4C4 /* func euclideanDistanceBetween.swift in Sources */,
+				8461051C283CDE1F0036AC60 /* func numbersWithDigitInside.swift in Sources */,
+				84A237982795B5720045B5BE /* func menFromBoys.swift in Sources */,
+				844BC07B27FDB354002959A1 /* func doesItContainSameCharacters.swift in Sources */,
+				8498724E283267A500A5E3B1 /* func wordSearch.swift in Sources */,
+				847A511929EEAC9A0055F16A /* func otherAngle.swift in Sources */,
+				849B3BED2817ECD700D9BF64 /* func maxMultiple.swift in Sources */,
+				843F1EE828DC5FD700564CC8 /* func flyBy.swift in Sources */,
+				8413398027BD205C002E7163 /* func switchItUp.swift in Sources */,
+				84DF46BB2876E0F500140E68 /* func isDivisible.swift in Sources */,
+				8453033D291A837B003F2853 /* func divisors.swift in Sources */,
+				84668A66280EB6400008E4BC /* func findSum.swift in Sources */,
+				84537E3A27C7AD2A008E5848 /* func monkeyCount.swift in Sources */,
+				847A512329EEB06F0055F16A /* func converter.swift in Sources */,
+				84932CB228081A4800A1FEB7 /* func toLeetSpeak.swift in Sources */,
+				84B4837527AC256800A8ED16 /* func kataTwist.swift in Sources */,
+				8413398427BFC022002E7163 /* func extraPerfect.swift in Sources */,
+				84EA5F68283B88D0000A4973 /* func spacify.swift in Sources */,
+				844BC08127FF2A2B002959A1 /* func growingPlant.swift in Sources */,
+				84C5D21D289287FA00244BFD /* func rowSumOddNumbers.swift in Sources */,
+				8498FACF28F6BEA300A49FC1 /* func duplicateEncode.swift in Sources */,
+				844BC07D27FDCE45002959A1 /* func opposite.swift in Sources */,
+				843D691C28C89E7D00948FE0 /* func jumpingNumber.swift in Sources */,
+				84918EB7297FF64200EE208A /* func shiftedDiff.swift in Sources */,
+				8410E6F527E20DDE0048FC82 /* func squareOrSquareRoot.swift in Sources */,
+				84668A64280EB4380008E4BC /* func maps.swift in Sources */,
+				849585B12811575C002D5962 /* func digitalRoot.swift in Sources */,
+				84C5D1F72891307800244BFD /* func descendingOrder.swift in Sources */,
+				84911BA129C332A2004B8FCB /* func createBox.swift in Sources */,
+				8413397C27BAA2EC002E7163 /* func summation.swift in Sources */,
+				84CD86EB28991C2E002F22C6 /* func disemvowel.swift in Sources */,
+				8413397A27BA9523002E7163 /* func century.swift in Sources */,
+				84B7F78129DED13400A38A94 /* func validParentheses.swift in Sources */,
+				84517CF127F7490D0004EEEE /* func sum_str.swift in Sources */,
+				84FB494F2835107E00623ABA /* func validBraces.swift in Sources */,
+				84A3E4E128A4FC1800B0CC95 /* func pyramid.swift in Sources */,
+				842251EA28F57EF60089D9E2 /* func findOutlier.swift in Sources */,
+				84B38208283E2F2200640661 /* func replaceAll.swift in Sources */,
+				8413397827BA8E51002E7163 /* func sumOfPositives.swift in Sources */,
+				844E7E5A2733F98C00556953 /* func reverse.swift in Sources */,
+				84D0E4362897CAC9000DB49B /* func find_short.swift in Sources */,
+				84DF46B728758F5500140E68 /* func reverseSeq.swift in Sources */,
+				84268AB729B5FD1500098D7B /* func isAValidMessage.swift in Sources */,
+				842F42DA281A996A00A2897A /* func multi_table.swift in Sources */,
+				8443DA6A289D1108008602A5 /* func circleOfNumbers.swift in Sources */,
+				84604FB927D3A94B00C65C98 /* func squareDigits.swift in Sources */,
+				844D211E2799B15D001E1E0C /* func expressionMatter.swift in Sources */,
+				84C2350D2975730F001484D3 /* func playPass.swift in Sources */,
+				84A54665282BB3490039F147 /* func inviteMoreWomen.swift in Sources */,
+				84604FBB27D3AB9D00C65C98 /* func accum.swift in Sources */,
+				84D966B8298BCC9D00298DAC /* func backwardsPrime.swift in Sources */,
+				84A34FE82949E1CD00924092 /* func foldArray.swift in Sources */,
+				84A064FB280578850027D7EA /* func sumOfMinimums.swift in Sources */,
+				849C2EC4279AE69F004A3DA9 /* func past.swift in Sources */,
+				84B7F77F29DECC9000A38A94 /* func update_light.swift in Sources */,
+				843FB49B282D0539009B83BF /* func allNonConsecutive.swift in Sources */,
+				84B4835F27A2AB4F00A8ED16 /* func getGrade.swift in Sources */,
+				8476167228B62463004AA7C1 /* func fizzBuzzCuckooClock.swift in Sources */,
+				84668A68280EC3850008E4BC /* fizzbuzz.swift in Sources */,
+				8441CAAB297E9E2300630EFF /* func beggars.swift in Sources */,
+				8451BC3927E8DD3B008CAD31 /* func sumMix.swift in Sources */,
+				84537E3C27C7BC32008E5848 /* func sumOfTwoSmallestIntegersIn.swift in Sources */,
+				84A54667282BB8670039F147 /* func digits.swift in Sources */,
+				84B4835D27A2A9B200A8ED16 /* func booleanToString.swift in Sources */,
+				84537E3827C66D6A008E5848 /* func stringy.swift in Sources */,
+				8450CDD629829433001205CB /* func isSumOfCubes.swift in Sources */,
+				8471D75828F43A36007E5132 /* func findIt.swift in Sources */,
+				84F1CC1B27E35E7D00A69C56 /* func getPlanetName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84400EAF271CAC9F0088A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84400EB0271CAC9F0088A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84400EB2271CAC9F0088A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = S695ZJTN24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84400EB3271CAC9F0088A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = S695ZJTN24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84400EA5271CAC9F0088A32E /* Build configuration list for PBXProject "Katas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84400EAF271CAC9F0088A32E /* Debug */,
+				84400EB0271CAC9F0088A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84400EB1271CAC9F0088A32E /* Build configuration list for PBXNativeTarget "Katas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84400EB2271CAC9F0088A32E /* Debug */,
+				84400EB3271CAC9F0088A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84400EA2271CAC9F0088A32E /* Project object */;
+}
