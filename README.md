@@ -1,4 +1,4 @@
-# Codewars Kata
+# Codewars Kata🥋
 
 ## What is a Kata? 
 
